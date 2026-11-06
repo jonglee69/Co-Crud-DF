@@ -1,6 +1,6 @@
 # co-crud-df — Co 도핑 모의 crud 표면제염 DF 계산기
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<GITHUB_USER>/co-crud-df/blob/main/DF_calculator.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jonglee69/Co-Crud-DF/blob/main/DF_calculator.ipynb)
 
 이 계산기는 STS 모재 위 마그네타이트 crud(Co 도핑)를 표면제염한 결과에서 **제염계수(DF)**를 객관적으로 산출한다.
 
@@ -21,8 +21,8 @@
 
 ### (b) 내 PC에서 실행
 ```bash
-git clone https://github.com/<GITHUB_USER>/co-crud-df.git
-cd co-crud-df
+git clone https://github.com/jonglee69/Co-Crud-DF.git
+cd Co-Crud-DF
 pip install -r requirements.txt
 python df_calc.py examples/example_data.csv
 ```

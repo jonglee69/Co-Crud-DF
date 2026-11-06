@@ -38,7 +38,13 @@ python df_calc.py examples/example_data.csv
 
 ## 2. 입력 데이터 작성
 
-[`templates/template.csv`](templates/template.csv)를 복사해서 실측값을 넣는다. Excel에서 편집한 뒤 **CSV(UTF-8)**로 저장한다.
+> **처음이면 [`docs/CSV_작성법.md`](docs/CSV_작성법.md)를 먼저 볼 것.** 실험 원자료(치수·질량·ICP 농도·부피·희석배수)만 [`examples/raw_lab_data_example.csv`](examples/raw_lab_data_example.csv) 형식으로 적으면, 아래 명령이 단위를 환산해 입력 CSV를 만들어 준다.
+> ```bash
+> python prepare_input.py examples/raw_lab_data_example.csv -o my_input.csv
+> python df_calc.py my_input.csv
+> ```
+
+계산값을 직접 넣으려면 [`templates/template.csv`](templates/template.csv)를 복사해서 실측값을 넣는다. Excel에서 편집한 뒤 **CSV(UTF-8)**로 저장한다.
 
 | 열 | 필수 | 단위 | 설명 |
 |---|---|---|---|

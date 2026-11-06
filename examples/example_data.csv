@@ -1,19 +1,19 @@
-sample_id,group,area_cm2,dissolved_mass_mg,Co_ug,Ni_ug,u_Co_ug,u_Ni_ug,crud_mass_mg,spike_Co_ug,note
-A-1,A,8.0,1.860,106.4,172.82,,,20.14,,oxide strip
-A-2,A,8.0,1.902,105,169.87,,,20.56,,oxide strip
-A-3,A,8.0,1.895,109.7,171.19,,,21.40,,oxide strip
-L-1,L,8.0,635.465,1039,55316,,,,,decon liquor
-L-2,L,8.0,630.532,1059,57610,,,,,decon liquor
-L-3,L,8.0,640.521,1020,57079,,,,,decon liquor
-B-1,B,8.0,5.627,8.793,493.38,,,,,1 um surface etch
-B-2,B,8.0,6.722,10.13,618.39,,,,,1 um surface etch
-B-3,B,8.0,6.396,9.828,587.32,,,,,1 um surface etch
-C-1,C,8.0,6.720,11.15,648.16,,,,,process blank
-C-2,C,8.0,7.294,11.42,655,,,,,process blank
-C-3,C,8.0,6.324,9.647,561.26,,,,,process blank
-C-4,C,8.0,5.642,8.135,503.39,,,,,process blank
-C-5,C,8.0,7.156,10.32,644.54,,,,,process blank
-D-1,D,8.0,5.189,16.37,474.06,,,,8.0,spike 8.0 ug
-D-2,D,8.0,6.212,17.95,552.04,,,,8.0,spike 8.0 ug
-E-1,E,8.0,6.278,29.1,569.82,,,,,short decon
-E-2,E,8.0,5.667,28.01,506.91,,,,,short decon
+﻿sample_id,group,area_cm2,dissolved_mass_mg,Co_ug,Ni_ug,u_Co_ug,u_Ni_ug,crud_mass_mg,spike_Co_ug,note
+A-1,A,8,22,106.425,172.8,2.1285,3.456,20.14,,oxide strip
+A-2,A,8,22.46,105.025,169.85,2.1005,3.397,20.56,,oxide strip
+A-3,A,8,23.3,109.725,171.2,2.1945,3.424,21.4,,oxide strip
+L-1,L,8,,1039,55320,20.78,1106.4,,,decon liquor
+L-2,L,8,,1059,57600,21.18,1152,,,decon liquor
+L-3,L,8,,1020,57080,20.4,1141.6,,,decon liquor
+B-1,B,8,5.63,8.7925,493.45,0.17585,9.869,,,1 um surface etch
+B-2,B,8,6.72,10.13,618.45,0.2026,12.369,,,1 um surface etch
+B-3,B,8,6.4,9.8275,587.2,0.19655,11.744,,,1 um surface etch
+C-1,C,8,6.72,11.15,648.2,0.223,12.964,,,process blank
+C-2,C,8,7.29,11.42,654.95,0.2284,13.099,,,process blank
+C-3,C,8,6.32,9.6475,561.2,0.19295,11.224,,,process blank
+C-4,C,8,5.64,8.135,503.45,0.1627,10.069,,,process blank
+C-5,C,8,7.16,10.32,644.45,0.2064,12.889,,,process blank
+D-1,D,8,5.19,16.37,473.95,0.3274,9.479,,8,spike 8.0 ug
+D-2,D,8,6.21,17.95,551.95,0.359,11.039,,8,spike 8.0 ug
+E-1,E,8,6.28,29.1125,569.7,0.58225,11.394,,,short decon
+E-2,E,8,5.67,28.0125,506.95,0.56025,10.139,,,short decon
